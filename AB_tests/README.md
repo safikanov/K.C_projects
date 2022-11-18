@@ -1,0 +1,5 @@
+Задание | Описание |<div style="width:50px">Инструменты</div> |
+:--- |:---|:-----
+[A/A test](https://github.com/safikanov/K.C_projects/blob/main/AB_tests/AA_test.ipynb) | Cделана симуляция, как будто мы провели 10000 АА-тестов. На каждой итерации сформированы подвыборки без повторения в 500 юзеров из 2 и 3 экспериментальной группы. Проведено сравнение этих подвыборок t-testом. | Python, Pandas, Numpy, Matplotlib, Seaborn, SciPy
+[A/B test](https://github.com/safikanov/K.C_projects/blob/main/AB_tests/AB_test.ipynb)| Анализ данных A/B теста. Основная гипотеза - новый алгоритм во 2-й группе приведет к увеличению CTR. Методы анализа: t-test, Пуассоновский бутстреп, тест Манна-Уитни, t-test на сглаженном CTR, а также t-test и тест Манна-Уитни поверх бакетного преобразования.| Python, Pandas, Numpy, Matplotlib, Seaborn, SciPy
+[Linearized likes](https://github.com/safikanov/K.C_projects/blob/main/AB_tests/Linearized_likes.ipynb)| Cконструирована и проанализирована новая метрика (линеаризованные лайки) на основе поюзерного CTR| Python, Pandas, Numpy, Matplotlib, Seaborn, SciPy
